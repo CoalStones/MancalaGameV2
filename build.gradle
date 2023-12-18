@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'pmd'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+compileJava {
+    sourceCompatibility = 11
+    targetCompatibility = 11
+}
+
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ui.GUI'
+    }
+    archiveBaseName = 'Mancala'
+}
+
+
+pmd {
+    ignoreFailures = true
+    consoleOutput = false
+    toolVersion = "6.55.0"
+    rulesMinimumPriority = 3
+    ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml", "category/java/design.xml", "category/java/codestyle.xml"]
+    pmdMain {
+        excludes = [
+                '**/TextUI.java'
+        ]
+    }
+}
+
+
+task echo;
+echo.doFirst {
+    println "To run the program from jar:\njava -jar build/libs/Mancala.jar"
+}
+test {
+    useJUnitPlatform()
+}
+
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2023-12-02T03:03:17.255">
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/AyoRules.java">
+<violation beginline="98" endline="98" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="AyoRules" method="captureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'temp' could be declared final
+</violation>
+<violation beginline="148" endline="148" begincolumn="35" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="AyoRules" method="switchCurrentPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/GameRules.java">
+<violation beginline="10" endline="192" begincolumn="17" endcolumn="1" rule="AbstractNaming" ruleset="Code Style" package="mancala" class="GameRules" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#abstractnaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/KalahRules.java">
+<violation beginline="11" endline="11" begincolumn="34" endcolumn="42" rule="ImmutableField" ruleset="Design" package="mancala" class="KalahRules" variable="gameBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'gameBoard' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="97" endline="97" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="KalahRules" method="captureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'temp' could be declared final
+</violation>
+<violation beginline="146" endline="146" begincolumn="35" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="KalahRules" method="switchCurrentPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/MancalaDataStructure.java">
+<violation beginline="14" endline="294" begincolumn="8" endcolumn="1" rule="GodClass" ruleset="Design" package="mancala" class="MancalaDataStructure" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=47, ATFD=31, TCC=31.667%)
+</violation>
+<violation beginline="14" endline="294" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mancala" class="MancalaDataStructure" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="125" endline="125" begincolumn="23" endcolumn="38" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="mancala" class="MancalaDataStructure" method="pitPos" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception types.
+</violation>
+<violation beginline="137" endline="137" begincolumn="23" endcolumn="38" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="mancala" class="MancalaDataStructure" method="storePos" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception types.
+</violation>
+<violation beginline="141" endline="141" begincolumn="26" endcolumn="26" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaDataStructure" method="storePos" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="197" endline="197" begincolumn="26" endcolumn="26" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaDataStructure" method="setSkipPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="262" endline="262" begincolumn="28" endcolumn="28" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaDataStructure" method="getPlayerStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="263" endline="263" begincolumn="13" endcolumn="48" rule="OnlyOneReturn" ruleset="Code Style" package="mancala" class="MancalaDataStructure" method="getPlayerStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/MancalaGame.java">
+<violation beginline="11" endline="294" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mancala" class="MancalaGame" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="34" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="mancala" class="MancalaGame" method="MancalaGame" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setBoard' called during object construction
+</violation>
+<violation beginline="30" endline="30" begincolumn="9" endcolumn="32" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="mancala" class="MancalaGame" method="MancalaGame" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setBoard' called during object construction (call stack: [gameSelection, setBoard])
+</violation>
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="40" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="mancala" class="MancalaGame" method="MancalaGame" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setPlayers' called during object construction
+</violation>
+<violation beginline="35" endline="35" begincolumn="25" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaGame" method="gameSelection" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="83" endline="83" begincolumn="47" endcolumn="47" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaGame" method="changePlayer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="138" endline="138" begincolumn="40" endcolumn="40" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="MancalaGame" method="totalSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="180" endline="180" begincolumn="22" endcolumn="25" rule="NullAssignment" ruleset="Error Prone" package="mancala" class="MancalaGame" method="getWinner" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="207" endline="207" begincolumn="13" endcolumn="26" rule="AvoidLosingExceptionInformation" ruleset="Error Prone" package="mancala" class="MancalaGame" method="isGameOver" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidlosingexceptioninformation" priority="2">
+Avoid statements in a catch block that invoke accessors on the exception without using the information
+</violation>
+<violation beginline="270" endline="270" begincolumn="20" endcolumn="58" rule="UnusedPrivateMethod" ruleset="Best Practices" package="mancala" class="MancalaGame" method="getPlayerName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getPlayerName(Player)'.
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/Pit.java">
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="Pit" method="removeStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'total' could be declared final
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/Player.java">
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="19" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="mancala" class="Player" method="Player" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setName' called during object construction
+</violation>
+<violation beginline="64" endline="64" begincolumn="24" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="mancala" class="Player" method="addWin" variable="gameRules" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'gameRules' is not assigned and could be declared final
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/Saver.java">
+<violation beginline="15" endline="33" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="mancala" class="Saver" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="53" rule="OnlyOneReturn" ruleset="Code Style" package="mancala" class="Saver" method="loadObject" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="26" rule="AvoidLosingExceptionInformation" ruleset="Error Prone" package="mancala" class="Saver" method="loadObject" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidlosingexceptioninformation" priority="2">
+Avoid statements in a catch block that invoke accessors on the exception without using the information
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/Store.java">
+<violation beginline="11" endline="11" begincolumn="13" endcolumn="22" rule="SingularField" ruleset="Design" package="mancala" class="Store" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'total' could be replaced by a local variable.
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/mancala/UserProfile.java">
+<violation beginline="17" endline="17" begincolumn="24" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="mancala" class="UserProfile" method="UserProfile" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="25" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="UserProfile" method="addGamePlayed" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="72" endline="72" begincolumn="25" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="mancala" class="UserProfile" method="addWin" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/ui/GUI.java">
+<violation beginline="34" endline="518" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="ui" class="GUI" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="34" endline="518" begincolumn="8" endcolumn="1" rule="GodClass" ruleset="Design" package="ui" class="GUI" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=57, ATFD=67, TCC=20.615%)
+</violation>
+<violation beginline="34" endline="518" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="ui" class="GUI" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="36" endline="36" begincolumn="23" endcolumn="33" rule="FieldNamingConventions" ruleset="Code Style" package="ui" class="GUI" variable="KALAH_RULES" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'KALAH_RULES' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="36" endline="36" begincolumn="23" endcolumn="33" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ui" class="GUI" variable="KALAH_RULES" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="37" endline="37" begincolumn="23" endcolumn="31" rule="FieldNamingConventions" ruleset="Code Style" package="ui" class="GUI" variable="AYO_RULES" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'AYO_RULES' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="37" endline="37" begincolumn="23" endcolumn="31" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ui" class="GUI" variable="AYO_RULES" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="44" endline="44" begincolumn="20" endcolumn="30" rule="ImmutableField" ruleset="Design" package="ui" class="GUI" variable="playerPanel" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'playerPanel' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="ui" class="GUI" variable="customButton" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'customButton'.
+</violation>
+<violation beginline="56" endline="56" begincolumn="19" endcolumn="26" rule="ImmutableField" ruleset="Design" package="ui" class="GUI" variable="saveLoad" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'saveLoad' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="56" endline="56" begincolumn="19" endcolumn="26" rule="NonSerializableClass" ruleset="Error Prone" package="ui" class="GUI" variable="saveLoad" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#nonserializableclass" priority="3">
+The field 'saveLoad' of serializable class 'ui.GUI' is of non-serializable type 'mancala.Saver'.
+</violation>
+<violation beginline="72" endline="72" begincolumn="9" endcolumn="28" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="ui" class="GUI" method="GUI" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setupGameContainer' called during object construction
+</violation>
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="23" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="ui" class="GUI" method="GUI" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method 'setupGameContainer' called during object construction (call stack: [updateButtons, setupGameContainer])
+</violation>
+<violation beginline="118" endline="118" begincolumn="35" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="makePlayerInfo" variable="playerInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'playerInfo' is not assigned and could be declared final
+</violation>
+<violation beginline="162" endline="162" begincolumn="9" endcolumn="59" rule="LawOfDemeter" ruleset="Design" package="ui" class="GUI" method="changePlayerName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="172" endline="172" begincolumn="13" endcolumn="67" rule="OnlyOneReturn" ruleset="Code Style" package="ui" class="GUI" method="fileFinder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="172" endline="172" begincolumn="20" endcolumn="66" rule="LawOfDemeter" ruleset="Design" package="ui" class="GUI" method="fileFinder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="180" endline="180" begincolumn="35" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="choosePlayerInfo" variable="playerToLoadTo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'playerToLoadTo' is not assigned and could be declared final
+</violation>
+<violation beginline="180" endline="180" begincolumn="58" endcolumn="84" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="choosePlayerInfo" variable="profileToLoadTo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'profileToLoadTo' is not assigned and could be declared final
+</violation>
+<violation beginline="182" endline="182" begincolumn="13" endcolumn="28" rule="UnusedLocalVariable" ruleset="Best Practices" package="ui" class="GUI" method="choosePlayerInfo" variable="currentPlayerNum" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'currentPlayerNum'.
+</violation>
+<violation beginline="182" endline="182" begincolumn="9" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="choosePlayerInfo" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'currentPlayerNum' could be declared final
+</violation>
+<violation beginline="188" endline="188" begincolumn="52" endcolumn="52" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ui" class="GUI" method="choosePlayerInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="191" endline="191" begincolumn="59" endcolumn="59" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ui" class="GUI" method="choosePlayerInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="237" endline="237" begincolumn="35" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="startUpMessage" variable="topPanel" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'topPanel' is not assigned and could be declared final
+</violation>
+<violation beginline="245" endline="245" begincolumn="25" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ui" class="GUI" method="whichGameRuleset" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="261" endline="310" begincolumn="13" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" package="ui" class="GUI" method="makeButtonGrid" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'makeButtonGrid(int, int)' has a cognitive complexity of 15, current threshold is 15
+</violation>
+<violation beginline="261" endline="310" begincolumn="13" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="ui" class="GUI" method="makeButtonGrid" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'makeButtonGrid(int, int)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="268" endline="278" begincolumn="13" endcolumn="13" rule="ConfusingTernary" ruleset="Code Style" package="ui" class="GUI" method="makeButtonGrid" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="296" endline="305" begincolumn="13" endcolumn="13" rule="ConfusingTernary" ruleset="Code Style" package="ui" class="GUI" method="makeButtonGrid" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="314" endline="314" begincolumn="9" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="makeMenu" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'menu' could be declared final
+</violation>
+<violation beginline="328" endline="328" begincolumn="38" endcolumn="38" rule="ShortVariable" ruleset="Code Style" package="ui" class="GUI" method="guiMove" variable="e" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="328" endline="328" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="guiMove" variable="e" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="331" endline="331" begincolumn="9" endcolumn="79" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="guiMove" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pressedButton' could be declared final
+</violation>
+<violation beginline="333" endline="333" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" package="ui" class="GUI" method="guiMove" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="335" endline="335" begincolumn="16" endcolumn="45" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="ui" class="GUI" method="guiMove" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="337" endline="337" begincolumn="23" endcolumn="52" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="ui" class="GUI" method="guiMove" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="366" endline="366" begincolumn="25" endcolumn="25" rule="UnusedAssignment" ruleset="Best Practices" package="ui" class="GUI" method="checkGameState" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'selection' is never used (overwritten on line 388)
+</violation>
+<violation beginline="367" endline="367" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="checkGameState" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'gameOver' could be declared final
+</violation>
+<violation beginline="369" endline="369" begincolumn="9" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="checkGameState" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'button' could be declared final
+</violation>
+<violation beginline="377" endline="377" begincolumn="64" endcolumn="97" rule="LawOfDemeter" ruleset="Design" package="ui" class="GUI" method="checkGameState" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="378" endline="378" begincolumn="21" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ui" class="GUI" method="checkGameState" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'winner' could be declared final
+</violation>
+<violation beginline="381" endline="381" begincolumn="21" endcolumn="44" rule="LawOfDemeter" ruleset="Design" package="ui" class="GUI" method="checkGameState" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="385" endline="385" begincolumn="17" endcolumn="30" rule="AvoidLosingExceptionInformation" ruleset="Error Prone" package="ui" class="GUI" method="checkGameState" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidlosingexceptioninformation" priority="2">
+Avoid statements in a catch block that invoke accessors on the exception without using the information
+</violation>
+<violation beginline="390" endline="390" begincolumn="17" endcolumn="27" rule="DoNotTerminateVM" ruleset="Error Prone" package="ui" class="GUI" method="checkGameState" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#donotterminatevm" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="409" endline="409" begincolumn="13" endcolumn="26" rule="AvoidLosingExceptionInformation" ruleset="Error Prone" package="ui" class="GUI" method="saveTheGame" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidlosingexceptioninformation" priority="2">
+Avoid statements in a catch block that invoke accessors on the exception without using the information
+</violation>
+<violation beginline="481" endline="481" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="ui" class="GUI" method="updateButtons" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="484" endline="484" begincolumn="58" endcolumn="58" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ui" class="GUI" method="updateButtons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="497" endline="497" begincolumn="58" endcolumn="58" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ui" class="GUI" method="updateButtons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+<file name="/course/coursework/assignments/GP4/src/main/java/ui/PositionAwareButton.java">
+<violation beginline="8" endline="63" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="ui" class="PositionAwareButton" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="24" endline="24" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="PositionAwareButton" method="PositionAwareButton" variable="val" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'val' is not assigned and could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="27" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="PositionAwareButton" method="setAcross" variable="val" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'val' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="25" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ui" class="PositionAwareButton" method="setDown" variable="val" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'val' is not assigned and could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
